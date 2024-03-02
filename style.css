@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url(./assests/bg.jpg);
+    background-size: max(100vh, 100vw);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    min-height: max(43vh, 60vw);
+    width: 100%;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+
+nav {
+    width: 70vw;
+    margin: auto;
+    padding-top: 2vw;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 12vw;
+    cursor: pointer;
+}
+
+button {
+    padding: .5vw 1vw;
+    font-size: 1.4vw;
+    border-radius: .7vw;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin: 1vw;
+    color: white;
+    cursor: pointer;
+}
+
+.lang {
+    background-color: transparent;
+    border: .1px solid wheat;
+}
+
+.status {
+    background-color: red;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    width: 60vw;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.center h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    margin-bottom: 1vw;
+}
+
+.center h2 {
+    font-size: 2vw;
+    font-weight: 600;
+    margin: 1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+input {
+    background-color: transparent;
+    padding: 1vw 1.4vw;
+    border: 1px solid gray;
+    border-radius: .5vw;
+    font-weight: 600;
+    font-size: 1.4vw;
+    color: white;
+    outline: none;
+    margin-bottom: 10vw;
+}
+
+.submit {
+    padding: 1vw 1.4vw;
+    cursor: pointer;
+    font-size: 1.4vw;
+    background-color: red;
+    outline: none;
+}
+
+.separation {
+    height: .5vw;
+    background-color: rgb(80, 79, 79);
+}
+
+.first {
+    color: white;
+    height: 10vw;
+    min-width: 90vw;
+    margin: 1vw;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 40vw;
+
+}
+
+.left h1 {
+    font-size: 2vw;
+    font-weight: 800;
+    line-height: 3vw;
+}
+
+.left h2 {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.right {
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.first .right video {
+    position: absolute;
+    top: 8vw;
+    right: 13vw;
+    width: 24vw;
+}
+
+.imgtv {
+    width: 35vw;
+    height: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.second {
+    color: white;
+    width: 80vw;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+
+}
+
+.second .left img {
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.second .right h1 {
+    font-size: 2vw;
+    line-height: 3vw;
+    font-weight: 800;
+}
+
+.second .right h2 {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.third {
+    margin-left: 15vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third .right {
+    position: relative;
+
+}
+
+.third .right img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.third .right video {
+    position: absolute;
+    top: 3.3vw;
+    right: 13.7vw;
+    width: 18vw;
+}
+
+.faq h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+    margin: 2vw;
+}
+
+.faqbox {
+    display: flex;
+    font-size: 1vw;
+    background-color: gray;
+    padding: 1vw 2vw;
+    justify-content: space-between;
+    width: 60vw;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 1vw;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: rgb(112, 109, 109);
+}
+
+.end {
+    color: white;
+    text-align: center;
+    font-size: 1.7vw;
+    height: 7vw;
+    margin: 3vw;
+}
+
+footer h3 {
+    font-size: 1.5vw;
+    color: rgb(190, 188, 188);
+    margin: 2vw 10vw 1vw 15vw;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    margin: auto;
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item a {
+    margin: .5vw;
+    font-weight: 500;
+    font-size: 1vw;
+    color: rgb(94, 92, 92);
+}
+
+footer h2 {
+    color: rgb(190, 188, 188);
+    margin: 1vw 2vw 4vw 15vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
